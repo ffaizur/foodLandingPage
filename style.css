@@ -1,0 +1,187 @@
+/* @impact url('https://.googleapis.com/css2?family=lemon&display=swap'); */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right top, #e4ffc9, #fdffec);
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 10vh;
+}
+
+.logo,
+ul,
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    flex: 2;
+}
+
+.icons {
+    flex: 1;
+    gap: 30px;
+}
+
+.fa-solid {
+    font-size: 20px;
+    color: #84b74d;
+}
+
+li {
+    list-style: none;
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.active {
+    color: #84b74d;
+}
+
+a:hover {
+    color: #84b74d;
+}
+
+.logo {
+    font-family: 'Fasthand', cursive;
+    font-size: 40px;
+    color: #ffffff;
+    position: relative;
+}
+
+.logo::before {
+    content: "";
+    background-color: #84b74d;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+}
+
+.logo::after {
+    content: "eals";
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, -50%);
+}
+
+.login,
+.delivery,
+.dine {
+    padding: 12px 40px;
+    margin-left: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: #84b74d;
+    font-size: 16px;
+}
+
+.login:hover,
+.delivery:hover {
+    background-color: #455a2f;
+    cursor: pointer;
+}
+
+.dine:hover {
+    /* color: green; */
+    top: 100%;
+    background-color: #7b955f;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+.dish img {
+    height: 70vh;
+    margin-top: 5%;
+    position: right;
+}
+
+.content {
+    flex: 1;
+}
+
+.dish {
+    flex: 1;
+    margin: 50px;
+    transform: matrix(100px 50px);
+}
+
+h2,
+h1,
+p {
+    margin-bottom: 20px;
+}
+
+h4{
+    font-family: 'Fasthand', cursive;
+    margin-left: 20px;
+    display: inline;
+    color: #84b74d;
+    font-size: 20px;
+}
+
+h5{
+    display: inline;
+    font-family: 'lemon', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'lemon', cursive;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'lemon', cursive;
+}
+
+span {
+    color: #84b74d;
+}
+
+p {
+    font-size: 10px;
+    color: gray;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dine {
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+}
+
+
+
+.button {
+    display: flex;
+}
